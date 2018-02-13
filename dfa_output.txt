@@ -1,0 +1,59 @@
+DFA generated from NFA in [nfa_2a.json] using incremental subset algorithm.
+
+The number of reachable DFA states is 11.
+
+DFA states: a
+---------- e reach: {'g', 'e', 'b', 'a', 'd'}
+----- transition 0: {'h', 'c'}
+----- transition 1: {'f'}
+
+DFA states: hc
+---------- e reach: {'h', 'g', 'e', 'c', 'b', 'a', 'd'}
+----- transition 0: {'c', 'h', 'i'}
+----- transition 1: {'f'}
+
+DFA states: f
+---------- e reach: {'g', 'f', 'e', 'b', 'a', 'd'}
+----- transition 0: {'h', 'c'}
+----- transition 1: {'f'}
+
+DFA states: chi
+---------- e reach: {'h', 'g', 'i', 'e', 'c', 'b', 'a', 'd'}
+----- transition 0: {'c', 'j', 'h', 'i'}
+----- transition 1: {'f'}
+
+DFA states: cjhi
+---------- e reach: {'h', 'j', 'g', 'i', 'e', 'c', 'b', 'a', 'd'}
+----- transition 0: {'c', 'j', 'h', 'i'}
+----- transition 1: {'f', 'k'}
+
+DFA states: fk
+---------- e reach: {'o', 'g', 'p', 'l', 'f', 'e', 'b', 'a', 'm', 'd', 'k'}
+----- transition 0: {'n', 'h', 'c'}
+----- transition 1: {'q', 'f'}
+
+DFA states: nhc
+---------- e reach: {'o', 'h', 'g', 'p', 'l', 'e', 'c', 'b', 'n', 'a', 'm', 'd'}
+----- transition 0: {'c', 'h', 'i', 'n'}
+----- transition 1: {'q', 'f'}
+
+DFA states: qf
+---------- e reach: {'o', 'm', 'g', 'p', 'l', 'f', 'e', 'b', 'a', 'q', 'd'}
+----- transition 0: {'n', 'h', 'c'}
+----- transition 1: {'q', 'f'}
+
+DFA states: chin
+---------- e reach: {'o', 'h', 'g', 'p', 'l', 'i', 'e', 'c', 'b', 'n', 'a', 'm', 'd'}
+----- transition 0: {'h', 'j', 'i', 'c', 'n'}
+----- transition 1: {'q', 'f'}
+
+DFA states: hjicn
+---------- e reach: {'o', 'h', 'j', 'g', 'p', 'l', 'i', 'e', 'c', 'b', 'n', 'a', 'm', 'd'}
+----- transition 0: {'h', 'j', 'i', 'c', 'n'}
+----- transition 1: {'f', 'q', 'k'}
+
+DFA states: fqk
+---------- e reach: {'o', 'm', 'g', 'p', 'l', 'f', 'e', 'b', 'a', 'q', 'd', 'k'}
+----- transition 0: {'n', 'h', 'c'}
+----- transition 1: {'q', 'f'}
+
