@@ -1,0 +1,98 @@
+{
+  "start" : "a",
+  "accepting" : ["m", "n", "o", "p", "q", "r", "s", "t", "u"],
+  "transitions" : {
+    "a" : {
+      "epsilon" : ["a", "b", "h"] 
+    }, 
+
+    "b" : {
+      
+      "epsilon" : ["b", "c", "f"] 
+    },
+
+    "c" : {
+      "0" : ["d"],
+      "epsilon" : ["c"] 
+    }, 
+    
+    "d" : {
+      "epsilon" : ["d", "e"] 
+    }, 
+
+    "e" : {
+      "epsilon" : ["e", "h"] 
+    },
+
+    "f" : {
+      "1" : ["g"],
+      "epsilon" : ["f"] 
+    },
+
+    "g" : {
+      "epsilon" : ["g", "e"]  
+    },
+
+    "h" : {
+      "epsilon" : ["h", "a", "i"]  
+    },
+
+    "i" : {
+      "0" : ["j"], 
+      "epsilon" : ["i"] 
+    },
+
+    "j" : {
+      "0" : ["k"], 
+      "epsilon" : ["j"] 
+    },
+
+    "k" : {
+      "0" : ["l"], 
+      "epsilon" : ["k"] 
+    },
+
+    "l" : {
+      "1" : ["m"],
+      "epsilon" : ["l"]
+    },
+
+    "m" : {
+      "epsilon" : ["m", "n"] 
+    },
+
+    "n" : {
+      "epsilon" : ["n", "o", "u"] 
+    },
+
+    "o" : {
+      "epsilon" : ["o", "p", "s"] 
+    },
+
+    "p" : {
+      "0" : ["q"], 
+      "epsilon" : ["p"] 
+    },
+
+    "q" : {
+      "epsilon" : ["q", "r"] 
+    },
+
+    "r" : {
+      "epsilon" : ["r", "u"] 
+    },
+
+    "s" : {
+      "1" : ["t"],
+      "epsilon" : ["s"] 
+    },
+
+    "t" : {
+      "epsilon" : ["t", "r"] 
+    },
+
+    "u" : {
+      "epsilon" : ["u", "n"] 
+    }
+  }
+}
